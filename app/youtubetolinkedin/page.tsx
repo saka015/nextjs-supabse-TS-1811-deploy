@@ -53,7 +53,7 @@ export default function Page() {
             </Link>
           </div>
         </div>
-        <div className="flex-1 hidden sm:flex px-16 gap-y-4 bg-gray-100 p-6 ">
+        <div className="flex-1 hidden sm:block px-16 gap-y-4 bg-gray-100 p-6 ">
           {/* Card */}
           <div className="border rounded-md p-4 bg-white ">
             <div className="flex justify-between">
