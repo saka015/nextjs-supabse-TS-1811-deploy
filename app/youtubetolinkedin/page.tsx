@@ -17,7 +17,7 @@ export default function Page() {
       <nav className="flex justify-between px-24 pt-8">
         <h1 className="font-bold text-black">Creatortools.ai</h1>
       </nav>
-      <main className="flex sm:flex-col mt-8 mx-6">
+      <main className="flex  mt-8 mx-6">
         <div className="flex-1 m-6">
           <h1 className="text-3xl font-semibold">
             YouTube video to LinkedIn Post Generator
