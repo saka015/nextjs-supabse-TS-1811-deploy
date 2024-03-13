@@ -27,12 +27,20 @@ export default function Page() {
     document.title = `Generated Post - Creatorstool`;
   }, []);
 
+  // const userLogout = () => {
+  //   console.log("clicked logout");
+  //   signOut();
+  //   redirect("/");
+  //   location.reload();
+  // };
+
   const userLogout = () => {
-    console.log("clicked logout");
-    signOut();
-    redirect("/");
-    location.reload();
-  };
+  console.log("clicked logout");
+   signOut(); // Wait for signOut to complete
+
+  // Redirect using the recommended approach (avoid location.reload)
+  window.location.replace("/"); // Replaces current history entry
+};
 
   return (
     <div className="flex flex-col sm:flex-row p- h-screen w-full">
